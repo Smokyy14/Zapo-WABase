@@ -21,13 +21,3 @@ export function forwardedFromChannel({ jid, name, serverMessageId = 1 }) {
         }
     };
 }
-
-export function restartProcess() {
-    spawn(process.argv[0], process.argv.slice(1), {
-        cwd: process.cwd(),
-        detached: true,
-        stdio: 'inherit'
-    }).unref();
-
-    process.exit(0);
-}
