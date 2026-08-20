@@ -1,0 +1,7 @@
+/node_modules
+.vscode
+.auth
+downloaders
+dev
+package-lock.json
+assets
