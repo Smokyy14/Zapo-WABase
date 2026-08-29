@@ -2,5 +2,5 @@
 export const prefix = '/'
 
 export const devs = [
-    '210737419022515' // Se elimina el @lid o @s.whatsapp.net porque sino no matchea.
+     '123456789098765' // Se elimina el @lid o @s.whatsapp.net porque sino no matchea.
 ]
